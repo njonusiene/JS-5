@@ -23,7 +23,6 @@ function countClicks(player) {
             output2.style.color = 'red';
             document.getElementById('one').disabled = true;
             document.getElementById('two').disabled = true;
-            alert("Tu laimėjai!")
             resetButton.disabled = false;
         }
     }
