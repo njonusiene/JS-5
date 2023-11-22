@@ -1,0 +1,41 @@
+body{
+    margin: 150px 450px;
+    background: linear-gradient(to left, #020024, #00d4ff);
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#value {
+    color: white;
+    font-weight: bold;
+}
+
+#one {
+    color: #00cdf8;
+    background: #02092e;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#two {
+    color: #02092e;
+    background: #00cdf8;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#one:hover {
+    color: #02092e;
+    background: #00cdf8;
+   
+}
+
+#two:hover {
+    color: #00cdf8;
+    background: #02092e;
+    
+}
